@@ -1,0 +1,92 @@
+body {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  font-family: Helvetica;
+}
+
+.css-container {
+  margin-top: 52px;
+  background-color: rgb(25, 25, 25);
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.css-buttons {
+  background-color: rgb(25, 25, 25);
+}
+
+.css-display-button {
+  background-color: rgb(150, 150, 150);
+  color: #f2f2f2;
+  padding: 20px 10px;
+  width: 262px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 38px;
+}
+
+.css-number-button {
+  background-color: rgb(60, 60, 60);
+  color: #f2f2f2;
+  border: none;
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 30px;
+  font-size: 25px;
+}
+
+.css-sign-button {
+  background-color: #fa8128;
+  color: #f2f2f2;
+  border: none;
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 25px;
+}
+
+.css-decimal-button {
+  background-color: rgb(60, 60, 60);
+  color: #f2f2f2;
+  border: none;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 30px;
+  font-size: 25px;
+}
+
+.css-equal-button {
+  background-color: #74b72e;
+  color: #f2f2f2;
+  border: none;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 30px;
+  font-size: 25px;
+}
+
+.css-clear-button {
+  background-color: #e32428;
+  color: #f2f2f2;
+  border: none;
+  padding: 10px;
+  width: 282px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+}

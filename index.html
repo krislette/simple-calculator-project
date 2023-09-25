@@ -1,0 +1,44 @@
+<!-- vvv IMPROVED CALCULATOR(?) vvv -->
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="css-container">
+      <p class="css-display-button js-calculation-display"></p>
+      <div class="css-buttons">
+        <p>
+          <button class="css-number-button" onclick="updateCalculation('1');">1</button>
+          <button class="css-number-button" onclick="updateCalculation('2');">2</button>
+          <button class="css-number-button" onclick="updateCalculation('3');">3</button>
+          <button class="css-sign-button" onclick="updateCalculation(' + ');">+</button>
+        </p>
+        <p>
+          <button class="css-number-button" onclick="updateCalculation('4');">4</button>
+          <button class="css-number-button" onclick="updateCalculation('5');">5</button>
+          <button class="css-number-button" onclick="updateCalculation('6');">6</button>
+          <button class="css-sign-button" onclick="updateCalculation(' - ');">-</button>
+        </p>
+        <p>
+          <button class="css-number-button" onclick="updateCalculation('7');">7</button>
+          <button class="css-number-button" onclick="updateCalculation('8');">8</button>
+          <button class="css-number-button" onclick="updateCalculation('9');">9</button>
+          <button class="css-sign-button" onclick="updateCalculation(' * ');">*</button>
+        </p>
+        <p>
+          <button class="css-number-button" onclick="updateCalculation('0');">0</button>
+          <button class="css-decimal-button" onclick="updateCalculation('.');">.</button>
+          <button class="css-equal-button" onclick="equalButton();">=</button>
+          <button class="css-sign-button" onclick="updateCalculation(' / ');">/</button>
+        </p>
+        <p>
+          <button class="css-clear-button" onclick="clearButton();">Clear</button>
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
